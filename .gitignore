@@ -1,0 +1,12 @@
+# Terraform local files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+
+# Local OS files
+.DS_Store

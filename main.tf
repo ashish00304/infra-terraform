@@ -12,3 +12,9 @@ module "aws_s3_bucket" {
  enviroment = "dev"
  bucket_tag_name = "my-bucket"
 }
+module "sns_topic" {
+  source = "./modules/sns"
+  topic_name     = "my-sns-topic"
+  topic_tag_name = "My SNS Topic"
+  environment    = "dev"
+}

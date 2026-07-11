@@ -16,5 +16,5 @@ module "sns_topic" {
   source = "./modules/sns"
   topic_name     = "my-sns-topic"
   topic_tag_name = "My SNS Topic"
-  environment    = "int"
+  environment    = "prod"
 }
